@@ -4,9 +4,9 @@ import api from '../../utils/api';
 const app = getApp<IAppOption>();
 Page({
   data: {
-    avatarUrl: app.globalData.baseImgUrl + 'my/avatar.png',
-    addressUrl: app.globalData.baseImgUrl + 'my/address.png',
-    aboutUrl: app.globalData.baseImgUrl + 'my/about.png',
+    avatarUrl: app.globalData.ossUrl + 'my/avatar.png',
+    addressUrl: app.globalData.ossUrl + 'my/address.png',
+    aboutUrl: app.globalData.ossUrl + 'my/about.png',
     user: app.globalData.user,
   },
   onLoad() {

@@ -4,7 +4,7 @@ import { encodePhoneNumber } from './utils/util';
 // app.ts
 App<IAppOption>({
   globalData: {
-    baseImgUrl: 'https://geeky-test-oss-1.oss-cn-shenzhen.aliyuncs.com/yjt-applets/',
+    ossUrl: 'https://geeky-test-oss-1.oss-cn-shenzhen.aliyuncs.com/yjt-applets/',
     share: false,
   },
   onLaunch(options) {

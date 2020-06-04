@@ -5,7 +5,7 @@ import Dialog from '@vant/weapp/dialog/dialog';
 const app = getApp<IAppOption>();
 Page({
   data: {
-    loginBgUrl: app.globalData.baseImgUrl + 'login-bg.png',
+    loginBgUrl: app.globalData.ossUrl + 'login-bg.png',
     redirect: '',
   },
   onLoad(options) {
