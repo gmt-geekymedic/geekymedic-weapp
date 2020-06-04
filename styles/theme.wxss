@@ -1,0 +1,5 @@
+/**theme.wxss**/
+page {
+  --tab-active-text-color: #5489dc;
+  --tabs-bottom-bar-color: #5489dc;
+}

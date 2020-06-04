@@ -1,0 +1,6 @@
+<view class="sv {{wrap?'sv-wrap':''}}">
+  <view class="sv-title" wx:if="{{title}}">{{title}}</view>
+  <view class="sv-content">
+    <slot></slot>
+  </view>
+</view>

@@ -1,0 +1,3 @@
+<!-- wxml -->
+<!-- 指向制定网址web-view -->
+<web-view src="{{url}}"></web-view>

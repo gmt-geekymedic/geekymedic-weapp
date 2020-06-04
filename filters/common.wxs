@@ -1,0 +1,17 @@
+var sex = function (sex) {
+  return sex === 'MALE' ? '男' : sex === 'FEMALE' ? '女' : '';
+};
+var formatPrice = function (value) {
+  if (typeof value !== 'number') {
+    value = 0;
+  }
+  value = parseInt(value);
+  var xiao = value % 100;
+  var zheng = Math.floor(value / 100);
+  var xiaoStr = xiao.toString().length > 1 ? xiao : '0' + xiao;
+  return zheng + '.' + xiaoStr;
+};
+module.exports = {
+  sex: sex,
+  formatPrice: formatPrice,
+};

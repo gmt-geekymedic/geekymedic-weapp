@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "*.wxml": "html"
+  },
+  "less.compile": {
+    "compress": false, //是否压缩
+    "sourceMap": false, //是否生成map文件
+    "out": true, // 是否输出文件，false为不输出
+    "outExt": ".wxss" // 输出文件的后缀,小程序可以写'wxss'
+  }
+}

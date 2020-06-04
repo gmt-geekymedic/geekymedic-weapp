@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "target": "ES5",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "removeComments": true,
+    "pretty": true,
+    "lib": ["es6", "ES2018"],
+    "typeRoots": ["node_modules/@types", "node_modules/miniprogram-api-typings"],
+    "paths": {
+      "@vant/weapp/*": ["./node_modules/@vant/weapp/dist/*"]
+    }
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "miniprogram_npm"]
+}

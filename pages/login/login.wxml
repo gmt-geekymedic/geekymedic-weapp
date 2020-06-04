@@ -1,0 +1,10 @@
+<!--pages/login/login.wxml-->
+<view class="page-container">
+  <van-image width="750rpx" fit="widthFix" src="{{loginBgUrl}}"></van-image>
+  <view class="text-center login-desc">欢迎登陆微信小程序,授权以后继续使用</view>
+  <view class="text-center login-btn">
+    <van-button type="primary" open-type="getPhoneNumber" bind:getphonenumber="getPhoneNumber" block round
+      color="#21BD3A">微信登录</van-button>
+  </view>
+</view>
+<van-dialog id="van-dialog" />

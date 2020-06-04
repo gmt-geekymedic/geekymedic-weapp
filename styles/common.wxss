@@ -1,0 +1,47 @@
+/**common.wxss**/
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.inline-block {
+  display: inline-block;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.text-red {
+  color: red;
+}
+.text-grey {
+  color: #9b9b9b;
+}

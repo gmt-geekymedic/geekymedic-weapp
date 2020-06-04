@@ -1,0 +1,15 @@
+<!--pages/my.wxml-->
+<view class="page-container">
+  <view class="header van-hairline--bottom" bindtap="navigateToUser">
+    <van-image round width="124rpx" height="124rpx" src="{{user.Avatar||avatarUrl}}" />
+    <view class="header-user">
+      <view wx:if="{{user}}">
+        <view class="login">{{user.TelDisplay}}</view>
+      </view>
+      <view wx:else>
+        <view bindtap="login" class="login">点击登录</view>
+        <view class="login-desc">未登录</view>
+      </view>
+    </view>
+  </view>
+</view>
